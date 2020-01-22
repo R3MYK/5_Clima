@@ -23,7 +23,7 @@ const getplacelatlng = async (direccion) => {
     // Envio de Objeto
     return {
         direccion : location.formatted_address,
-        lat : coords.lng,
+        lat : coords.lat,
         lng: coords.lng
     }
 };
